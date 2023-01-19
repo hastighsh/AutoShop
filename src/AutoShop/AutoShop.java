@@ -35,7 +35,6 @@ public class AutoShop {
      */
     public AutoShop(ShopOwner owner) {
 
-        // TODO: COMPLETE THIS
         this.owner = owner;
         this.vehicles= new HashSet<>();
 
@@ -49,6 +48,7 @@ public class AutoShop {
      * @param other the auto shop to copy
      */
     public AutoShop(AutoShop other) {
+        
         this.owner = other.owner;
         this.vehicles= other.vehicles;
     }
